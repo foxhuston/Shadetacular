@@ -3,13 +3,18 @@ Shadetacular
 
 Shadetacular will help you:
 
-*  Use shader programs
-*  Write cleaner C++ code
-*  Do your laundry
+*  Use shader programs.
+*  Write cleaner C++ code.
+*  Do your laundry.
 
 Seriously.
 
 ## Use and Inner Workings ##
+
+The very first thing you have to do is include the two header files (in this order):
+
+    #include <coordinate.hpp>
+    #include <shader.hpp>
 
 When it reads the file, it builds a std::map< string, ShaderParameter >
 out of the uniforms and attributes it finds. What you get out of this is
