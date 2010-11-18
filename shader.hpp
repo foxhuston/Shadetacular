@@ -1,6 +1,9 @@
 #ifndef __SHADER_HPP__
 #define __SHADER_HPP__
 
+// (c) 2010 Geoff Huston
+// Licensed under the GPL
+
 typedef enum shader_param_type_t {
   SHADER_ATTRIBUTE,
   SHADER_UNIFORM
