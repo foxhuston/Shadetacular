@@ -1,3 +1,6 @@
+// (c) 2010 Geoff Huston
+// Licensed under the GPL
+
 #include<iostream>
 #include<fstream>
 #include<map>
